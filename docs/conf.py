@@ -18,7 +18,6 @@
 
 import sys
 sys.path.append("..") # Adds higher directory to python modules path.
-from ta import *
 
 # -- Project information -----------------------------------------------------
 

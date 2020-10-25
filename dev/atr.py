@@ -1,8 +1,8 @@
+import sys
+
 import pandas as pd
 
-import sys
 sys.path.append("..") # Adds higher directory to python modules path.
-from ta import *
 
 # Load data
 df = pd.read_csv('../data/datas.csv', sep=',')

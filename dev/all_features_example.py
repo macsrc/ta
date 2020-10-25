@@ -1,9 +1,10 @@
 """This is a example adding all technical analysis features implemented in
 this library.
 """
+import sys
+
 import pandas as pd
 
-import sys
 sys.path.append("..") # Adds higher directory to python modules path.
 import ta
 

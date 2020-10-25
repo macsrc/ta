@@ -1,7 +1,6 @@
 import unittest
 
 import pandas as pd
-
 from ta.momentum import (KAMAIndicator, ROCIndicator, RSIIndicator,
                          StochasticOscillator, TSIIndicator,
                          UltimateOscillator, WilliamsRIndicator, kama, roc,
@@ -13,7 +12,7 @@ class TestRateOfChangeIndicator(unittest.TestCase):
     https://school.stockcharts.com/doku.php?id=technical_indicators:on_balance_volume_obv
     """
 
-    _filename = 'ta/tests/data/cs-roc.csv'
+    _filename = 'data/cs-roc.csv'      #   'ta/tests/data/cs-roc.csv'
 
     @classmethod
     def setUpClass(cls):
@@ -42,7 +41,7 @@ class TestRSIIndicator(unittest.TestCase):
     Note: Using a more simple initilization (directly `ewm`; stockcharts uses `sma` + `ewm`)
     """
 
-    _filename = 'ta/tests/data/cs-rsi.csv'
+    _filename = 'data/cs-rsi.csv'
 
     @classmethod
     def setUpClass(cls):

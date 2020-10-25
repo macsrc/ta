@@ -8,7 +8,7 @@
 import numpy as np
 import pandas as pd
 
-from ta.utils import IndicatorMixin, ema
+from ta.utils import IndicatorMixin
 
 
 class AverageTrueRange(IndicatorMixin):

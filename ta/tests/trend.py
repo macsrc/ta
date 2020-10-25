@@ -1,7 +1,6 @@
 import unittest
 
 import pandas as pd
-
 from ta.trend import (MACD, ADXIndicator, CCIIndicator, PSARIndicator,
                       VortexIndicator, adx, adx_neg, adx_pos, cci, macd,
                       macd_diff, macd_signal, psar_down, psar_down_indicator,

@@ -1,7 +1,6 @@
 import unittest
 
 import pandas as pd
-
 from ta.volatility import (AverageTrueRange, BollingerBands, DonchianChannel,
                            KeltnerChannel, average_true_range, bollinger_hband,
                            bollinger_hband_indicator, bollinger_lband,
