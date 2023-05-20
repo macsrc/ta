@@ -109,3 +109,8 @@ env*
 
 # Original Source (Dev)
 ta/_wrapper.py
+.idea/vcs.xml
+.idea/ta.iml
+.idea/modules.xml
+.idea/misc.xml
+.idea/inspectionProfiles/profiles_settings.xml
