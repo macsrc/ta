@@ -1,6 +1,15 @@
 | Date | Version | Comment |
 | ------------- | ------------- | ------------- |
-| ? | 0.5.26 | Update wrapper https://github.com/bukosabino/ta/pull/166 |
+| 2022/08/23 | 0.10.2 | Fixing bug on KAMA indicator https://github.com/bukosabino/ta/pull/303 |
+| 2022/04/16 | 0.10.1 | Fixing future warning https://github.com/bukosabino/ta/pull/293 |
+| 2022/04/16 | 0.10.0 | Customize Keltner Channel ATRs multiplier |
+| 2022/01/09 | 0.9.0 | Fixing wrong name version |
+| 2022/01/09 | 0.8.2 | Bumping pandas and numpy because of a external vulnerability issue |
+| 2022/01/09 | 0.8.1 | Fixing bug on name columns (PVO - PPO) |
+| 2021/11/18 | 0.8.0 | Add option to get just the most efficient indicators (vectorized), also solved some security dependency |
+| 2020/11/27 | 0.7.0 | Cleaning code (prospector, black) https://github.com/bukosabino/ta/pull/209 |
+| 2020/11/17 | 0.6.1 | Fixing Wrapper https://github.com/bukosabino/ta/pull/204 |
+| 2020/11/09 | 0.6.0 | Adding new indicators (Ulcer Index, Weighted Moving Average, Schaff Trend Cycle, Stochastic RSI, Percentage Price Oscillator, Percentage Volume Oscillator) https://github.com/bukosabino/ta/pull/167; Update wrapper https://github.com/bukosabino/ta/pull/166 |
 | 2020/05/12 | 0.5.25 | fixing bug: min_periods when fillna=False https://github.com/bukosabino/ta/pull/158 |
 | 2020/05/11 | 0.5.24 | Adding extra methods for IchimokuIndicator https://github.com/bukosabino/ta/pull/156 |
 | 2020/05/10 | 0.5.23 | Fixing bug when dataset with timestamp as index https://github.com/bukosabino/ta/pull/154 |
