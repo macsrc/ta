@@ -1,12 +1,12 @@
-"""This is a example adding all technical analysis features implemented in
-this library.
-"""
+# """This is a example adding all technical analysis features implemented in
+# this library.
+# """
 import pandas as pd
 
 import ta
 
 # Load data
-df = pd.read_csv("../test/data/datas.csv", sep=",")
+df = pd.read_csv("D:\\aresources\\workspace\\mac-py\\ta\\test\\data\\datas.csv", sep=",")
 
 # Clean nan values
 df = ta.utils.dropna(df)
